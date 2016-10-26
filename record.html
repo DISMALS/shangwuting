@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>服务大厅</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="网页的描述"/>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/serve.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.1.8.1.min.js"></script>
+</head>
+<body>
+	<div class="Index">
+		<div class="indexBg" id="indexBg">
+			<img src="images/other/indexBg.jpg" width="100%" height="100%" alt=""/>
+		</div>
+		<h1><a href="">河南省商务厅行政服务大厅</a></h1>
+		<div class="indexMain">
+			<a class="comeBack" href="#" target="_self" title="返回"><i class="iconfont">&#xe645;</i>返回</a>
+			<ul class="recordList">
+				<li class="on"><a href="javascript:" target="_self" title="对外贸易经营者备案登记表">对外贸易经营者登记表</a><i class="iconfont">&#xe647;</i></li>
+				<li><a href="javascript:" target="_self" title="备案登记在线申报">备案登记在线申报</a><i class="iconfont">&#xe647;</i></li>
+				<li><a href="javascript:" target="_self" style="line-height:44px;" title="资料受理">资料受理</a><i class="iconfont">&#xe647;</i></li>
+				<li><a href="javascript:" target="_self" title="登记表变更及失效">登记表变更及失效</a><i class="iconfont">&#xe647;</i></li>
+				<li><a href="javascript:" target="_self" style="line-height:44px;" title="咨询">咨询</a></li>
+			</ul>
+			<div class="recordCom">
+				<div class="recordText">
+					<p>对外贸易经营者可以通过商务部政府网站<a href="">（http://www.mofcom.gov.cn）</a>下载，或到属地备案登记机关领取《对外贸易经营者备案登记表》。</p>
+					<p>对外贸易经营者应按《对外贸易经营者备案登记表》要求认真填写所有事项的信息，并确保所填写内容是完整的、准确的和真实的；同时认真阅读《对外贸易经营者备案登记表》背面的条款，并由企业法定代表人或个体工商负责人签字、盖章</p>
+					<input type="button" value="表格下载" /><input type="button" value="经营者查询" /><input type="button" value="备案登记机关名单" />
+				</div>
+				<dl class="recordText">
+					<dt>向备案登记机关提交如下备案登记材料：</dt>					
+　　					<dd>（1）按要求填写的《登记表》；</dd>
+　　					<dd>（2）营业执照复印件；</dd>
+　　					<dd>（3）组织机构代码证书复印件；</dd>
+　　					<dd>（4）对外贸易经营者为外商投资企业的，还应提交外商投资企业批准证书复印件；</dd>
+　　					<dd>（5）依法办理工商登记的个体工商户（独资经营者），须提交合法公证机构出具的财产公证证明；依法办理工商登记的外国（地区）企业，须提交经合法公证机构出具的资金信用证明文件</dd>
+					<input type="button" value="在线申报" />
+				</dl>
+				<div class="recordText">
+					<p>·备案登记机关应自收到对外贸易经营者提交的上述材料之日起5日内办理备案登记手续，在《对外贸易经营者备案登记表》上加盖备案登记专用章。</p>
+　　					<p>·对外贸易经营者应凭加盖备案登记印章的《对外贸易经营者备案登记表》在30日内到当地海关、检验检疫、外汇、税务等部门办理开展对外贸易业务所需的有手续。逾期未办理的，《对外贸易经营者备案登记表》自动失效。（此处的“30日”是指对外贸易经营者应及时到有关规定部门办理开展对外贸易业务所需手续，在规定的30个工作日内，只要该对外贸易经营者的申请被海关、检验检疫、外汇、税务等相关部门中的任何一个部门正式受理，其对《外贸易经营者备案登记表》即为有效。）</p>
+				</div>
+				<div class="recordText">
+					<p>·《对外贸易经营者备案登记表》上的任何登记事项发生变更时，对外贸易经营者应按照有关规定，在30日内办理《对外贸易经营者备案登记表》的变更手续，逾期未办理变更手续的，其《对外贸易经营者备案登记表》自动失效。</p>
+　　					<p>·对外贸易经营者已在工商部门办理注销手续或被吊销营业执照的，自营业执照注销或被吊销之日起，《对外贸易经营者备案登记表》自动失效。</p>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<p>版权所有：河南省商务厅 ICP备案号:豫ICP备05010993</p>
+		</div>
+	</div>
+<script type="text/javascript">
+$(function(){
+    $('#indexBg').height($(window).height());
+    $('#indexBg').width($(window).width());
+    $(".recordCom div:first").css("display","block");
+	$(".recordList li").each(function(index){
+		$(this).click(function(){
+			$(".recordList li.on").removeClass("on");
+			$(this).addClass("on");
+			$(".recordCom>.recordText:eq("+index+")").show().siblings().hide();
+		})
+	})
+	$(window).resize(function () {
+	    $('#indexBg').height($(window).height());
+	    $('#indexBg').width($(window).width());
+	});
+});
+</script>
+</body>
+</html>

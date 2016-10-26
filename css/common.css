@@ -1,0 +1,85 @@
+﻿@charset 'utf-8';
+html,body,button,ul,li,h1,h2,h3,h4,h5,h6,td,table,textarea,th,select,p,dl{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"microsoft yahei",arial,sans-serif;
+	background:#fff;
+    position:relative;
+}
+ul,li,ol,dl,dd,dt{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	outline:none;
+}
+a.link{
+	text-decoration:none;
+	outline:none;
+}
+a.visited{
+	text-decoration:none;
+	outline:none;
+}
+a.hover{
+	text-decoration:none;
+	outline:none;
+}
+a.active{
+	text-decoration:none;
+	outline:none;
+}
+html,body,img{
+	border:0;
+	}
+q:before,q:after{
+	content:none;
+	}
+textarea{
+	overflow:auto;
+	resize:none;
+	}
+a,button{
+	cursor:pointer;
+	}
+input{
+	background:none;
+	border:none;
+    padding:0;
+	}
+h1,h2,h3,h4,h5,h6,em,i{
+	font-weight:normal;
+	}
+textarea{
+	overflow:auto;
+	resize:none;
+	}
+input:-moz-placeholder,select:-moz-placeholder{
+    color:#666;
+}
+input::-moz-placeholder,select::-moz-placeholder{
+    color:#666;
+}
+input::-webkit-input-placeholder,select::-webkit-input-placeholder{
+    color:#666;
+}
+input:-ms-input-placeholder,select:-ms-input-placeholder{
+    color:#666;
+}
+i{
+    font-style:normal;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1470986211_8448377.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1470986211_8448377.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1470986211_8448377.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1470986211_8448377.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1470986211_8448377.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family: 'iconfont';
+    -webkit-font-smoothing: antialiased;
+}

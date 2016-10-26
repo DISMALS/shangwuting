@@ -1,0 +1,593 @@
+﻿@charset "utf-8";
+/*
+    制作时间：2016.08.09
+    作者：王勇
+    用途：商务厅改版列表页样式表
+*/
+
+/*
+    交流互动栏目页开始
+*/
+
+/*contentLeft start*/
+
+/*新闻详情页开始*/
+.newsCommon{
+    width:718px;
+    height:auto;
+}
+.newsCommon h2{
+    padding:20px 0px;
+    line-height:60px;
+    border-bottom:1px solid #e5e5e5;
+    text-align:center;
+    font-size:24px;
+    color:#333;
+}
+.timeC{
+    display:block;
+    line-height:22px;
+    color:#999;
+    font-size:14px;
+    font-style:normal;
+} 
+.twoRightTit{
+    padding:8px 0px 8px 28px;
+    background:url(../images/guohui.png) no-repeat left 8px;
+}
+.yaodian{
+    display:block;
+    padding:20px;
+    background:#f5f5f5 url(../images/flBg.png) no-repeat 100px 20px;
+}
+.yaodian img{
+    float:left;
+    display:block;
+    margin-right:38px;
+}
+.yaodian font{
+    font-size:14px;
+    color:#444;
+    line-height:26px;
+    height:52px;
+    overflow:hidden;
+}
+.slideFour{
+    width:718px;
+    height:auto;
+    position:relative;
+}
+.slideFourM{
+    height:546px;
+    position:relative;
+}
+.slideFourM li{
+    width:718px;
+    height:546px;
+}
+.slideFourM li a{
+    display:block;
+}
+.slideFourM li img{
+    display:block;
+    width:718px;
+    height:494px;
+}
+.slideFourM li b{
+    display:block;
+    height:52px;
+    line-height:52px;
+    padding-left:106px;
+    font-size:14px;
+    color:#666;
+    font-weight:normal;
+}
+.pageState{
+    position:absolute;
+    top:506px;
+    left:60px;
+    font-size:16px;
+    color:#444;
+    font-family:Arial;
+}
+.pageState span{
+    color:#094d83;
+    font-size:24px;
+}
+.slideFourTab{
+    width:620px;
+    height:72px;
+    background:#f8f8f8;
+    position:relative;
+    padding:14.5px 49px;
+    overflow:hidden;
+    border-radius:7px;
+}
+.prevFour{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:36px;
+    height:101px;
+    background:#f2f2f2 url(../images/other/prev3.png) no-repeat center;
+}
+.nextFour{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:36px;
+    height:101px;
+    background:#f2f2f2 url(../images/other/next3.png) no-repeat center;
+}
+.smallPic{
+    width:620px;
+    height:72px;
+    margin:14.5px auto;
+}
+.smallPic li{
+    width:100px;
+    height:66px;
+    float:left;
+    margin:0px 9px 0px;
+    border:3px solid #f8f8f8;
+}
+.smallPic li a{
+    display:block;
+}
+.smallPic li img{
+    width:100px;
+    height:66px;
+    display:block;
+}
+.smallPic li.on{
+    border:3px solid #094d83;
+}
+.textMain{
+    font-size:16px;
+    color:#444;
+    line-height:34px;
+}
+.textMain p{
+    margin:0;
+}
+.textMain img{
+    display:block;
+}
+.prevNext{
+    width:564px;
+    height:67px;
+    background:#f2f2f2;
+    padding:20px 125px 20px 29px;
+    position:relative;
+}
+.prevNext p{
+    margin:0px;
+    font-size:14px;
+    line-height:30px;
+}
+.prevNext b{
+    display:block;
+    float:left;
+    width:52px;
+    height:30px;
+    color:#333;
+    margin-right:5px;
+    font-weight:normal;
+}
+.prevNext a{
+    display:inline-block;
+    color:#666;
+    width:490px;
+    height:30px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.prevNext p a:hover{
+    color:#094d83;
+    text-decoration:underline;
+}
+.prevNext a.shar{
+    display:block;
+    width:92px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    font-size:16px;
+    color:#444;
+    position:absolute;
+    top:35px;
+    right:30px;
+    border:1px solid #a9a9a9;
+    background:#fff;
+    border-radius:20px
+}
+.prevNext a.shar:hover{
+    border:1px solid #094d83;
+    background:#094d83;
+    color:#fff;
+}
+.aboutNews{
+    position:relative;
+    width:718px;
+    height:auto;
+    overflow:hidden;
+}
+.aboutNewsList{
+    width:748px;
+    height:auto;
+    overflow:hidden;
+}
+.aboutNewsList li{
+    width:344px;
+    height:30px;
+    float:left;
+    font-size:14px;
+    line-height:30px;
+    margin-right:30px;
+}
+.aboutNewsList li a{
+    display:block;
+    height:30px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    color:#444;
+}
+.aboutNewsList li i{
+    font-size:12px;
+    margin-right:5px;
+    color:#a1a1a1;
+    font-style:normal;
+}
+.aboutNewsList li a:hover{
+    color:#094d83;
+}
+.aboutNewsList li a:hover i{
+    color:#7c7c7c;
+}
+
+/*新闻详情页结束*/
+
+/*在线信箱页面开始*/
+
+.onLineMail{
+    width:860px;
+    height:auto;
+    padding:40px 70px 55px;
+    background:#f8f8f8;
+    margin-top:22px;
+    position:relative;
+}
+.mailTit{
+    display:block;
+    padding:30px 0px;
+    text-align:center;
+    border-bottom:1px solid #d5d5d5;
+    line-height:32px;
+    font-size:32px;
+    color:#094d83;
+    font-weight:bold;
+}
+.smallText{
+    display:block;
+    font-style:normal;
+    font-size:14px;
+    color:#666;
+    line-height:24px;
+}
+.ts{
+    margin:0;
+    padding:30px 0px;
+    border-bottom:1px solid #d5d5d5;
+    font-size:14px;
+    color:#666;
+    line-height:32px;
+}
+.mailBd{
+    width:860px;
+    height:auto;
+    padding:30px 0px;
+    border-bottom:1px solid #d5d5d5;
+}
+.mailBd label{
+    display:block;
+    line-height:40px;
+    margin-bottom:10px;
+    overflow:hidden;
+}
+.mailBd label span{
+    display:block;
+    float:left;
+    width:95px;
+    height:40px;
+    text-align:right;
+    font-size:16px;
+    color:#333;
+    margin-right:15px;
+}
+.mailBd label i{
+    color:#ff0000;
+    margin-right:3px;
+    font-style:normal;
+}
+.mailBd label input{
+    float:left;
+    width:323px;
+    height:38px;
+    border:1px solid #c6c6c6;
+    border-radius:3px;
+    background:#fff;
+    outline:none;
+    padding-left:5px;
+    font-family:'Microsoft YaHei';
+}
+.mailBd label input.username{
+    width:186px;
+}
+.mailBd label input.zhuti{
+    width:721px;
+}
+.contentText{
+    float:left;
+    width:716px;
+    height:130px;
+    background:#fff;
+    border-radius:3px;
+    border:1px solid #c6c6c6;
+    padding:4px 5px;
+    font-size:14px;
+    line-height:26px;
+    outline:none;
+    font-family:'Microsoft YaHei';
+}
+.yzm{
+    display:block;
+    width:98px;
+    height:38px;
+    float:left;
+    margin-left:10px;
+    border:1px solid #e7e7e7;
+    overflow:hidden;
+}
+.sub{
+    display:block;
+    width:169px;
+    height:52px;
+    text-align:center;
+    margin:40px auto 0px;
+    border-radius:5px;
+    background:#094d83;
+    color:#fff;
+    font-size:21px;
+    font-family:'Microsoft YaHei';
+    cursor:pointer;
+}
+
+/*在线信箱页面结束*/
+
+/*依申请公开开始*/
+.applyMail{
+    width:900px;
+    height:auto;
+    padding:40px 50px 0px;
+    background:#f8f8f8;
+    margin-top:22px;
+    position:relative;
+    overflow:hidden;
+}
+.applyModule{
+    position:relative;
+    left:0px;
+    width:932px;
+    height:auto;
+    margin:19px auto 40px;
+    overflow:hidden;
+}
+.applyMtit{
+    display:block;
+    height:46px;
+    line-height:46px;
+    border-bottom:1px solid #d5d5d5;
+    background:url(../images/flBg.png) no-repeat left center;
+    font-size:18px;
+    color:#094d83;
+    font-weight:bold;
+    padding-left:14px;
+}
+.applyManxx{
+    display:block;
+    float:left;
+    width:203px;
+    height:72px;
+    margin:0px 30px 11px 0px;
+
+}
+.chooseTit{
+    display:block;
+    height:32px;
+    line-height:32px;
+    font-size:14px;
+    color:#333;
+}
+.chooseTit i{
+    color:#ff0000;
+    margin-left:3px;
+}
+.applyManxx input{
+    width:195px;
+    height:38px;
+    line-height:38px;
+    border:1px solid #c6c6c6;
+    background:#fff;
+    padding-left:6px;
+    border-radius:3px;
+    font-size:14px;
+    outline:none;
+    font-family:'Microsoft YaHei';
+    color:#333;
+}
+.applyModuleT{
+    width:900px;
+    height:auto;
+    margin:19px auto 40px;
+    overflow:hidden;
+}
+.applyTit{
+    display:block;
+    width:700px;
+    height:72px;
+    margin-bottom:11px;
+}
+.applyTit input{
+    width:692px;
+    height:38px;
+    line-height:38px;
+    padding-left:6px;
+    font-size:14px;
+    background:#fff;
+    border-radius:3px;
+    border:1px solid #c6c6c6;
+    font-family:'Microsoft YaHei';
+    outline:none;
+}
+.applyText{
+    display:block;
+    width:900px;
+    height:195px;
+    margin-bottom:11px;
+}
+.applyTextM{
+    width:888px;
+    height:157px;
+    border:1px solid #c6c6c6;
+    background:#fff;
+    padding:2px 5px;
+    border-radius:3px;
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    outline:none;
+    line-height:24px;
+}
+.checkBox{
+    display:block;
+    float:left;
+    width:300px;
+    height:auto;
+}
+.tishiY{
+    display:block;
+    height:44px;
+    line-height:44px;
+    font-size:14px;
+    color:#333333;
+}
+.tishiY i{
+    color:#ff0000;
+}
+.checkBox span{
+    display:block;
+    height:20px;
+    line-height:20px;
+    margin:12px 0px;
+    font-size:14px;
+    color:#666;
+}
+.checkBox span input{
+    width:18px;
+    height:18px;
+    float:left;
+    margin:1px 11px 1px 0px;
+}
+.otherMethod{
+    width:852px;
+    height:auto;
+    float:left;
+    margin-top:26px;
+    padding:23px 23px 11px; 
+    background:#fff;
+    border:1px dashed #c6c6c6;
+}
+.otherMethod span{
+    display:block;
+    font-size:14px;
+    color:#666;
+    height:24px;
+    line-height:24px;
+    margin-bottom:12px;
+}
+.otherMethod span input{
+    float:left;
+    margin-right:12px;
+    width:18px;
+    height:18px;
+}
+.xuantain{
+    display:block;
+    width:433px;
+    height:72px;
+    float:left;
+}
+.mrR{
+    margin-right:15px;
+}
+.mrL{
+    margin-left:15px;
+}
+.xuantain input{
+    display:block;
+    width:427px;
+    height:38px;
+    line-height:38px;
+    border:1px solid #c6c6c6;
+    background:#fff;
+    padding-left:6px;
+    border-radius:3px;
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    outline:none;
+    color:#444;
+}
+.applyYZM{
+    width:100%;
+    height:72px;
+    float:left;
+    margin-top:11px;
+}
+.applyYZM input{
+    width:112px;
+    height:38px;
+    float:left;
+    line-height:38px;
+    padding-left:6px;
+    border:1px solid #c6c6c6;
+    background:#fff;
+    border-radius:3px;
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    outline:none;
+    color:#444;
+}
+.yamPic{
+    display:block;
+    float:left;
+    width:98px;
+    height:38px;
+    margin:1px 10px;
+}
+.qieh{
+    font-size:12px;
+    color:#094d83;
+    line-height:38px;
+}
+.qieh:hover{
+    text-decoration:underline;
+}
+.tjModule{
+    width:1000px;
+    height:auto;
+    background:#ebebeb;
+    padding:30px 0px;
+}
+
+/*依申请公开结束*/

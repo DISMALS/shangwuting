@@ -1,0 +1,19 @@
+{
+  "name": "shangwuting",
+  "version": "1.0.0",
+  "description": "商务厅改版央视文件压缩",
+  "main": "Grountfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "样式文件压缩配置信息"
+  ],
+  "author": "王勇",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
